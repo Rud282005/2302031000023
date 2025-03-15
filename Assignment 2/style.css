@@ -1,0 +1,262 @@
+/*css for body*/
+body{
+    font-family: Source Serif Pro;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch; 
+    margin: 0;
+    overflow-x: hidden;
+}
+
+main{
+    height: 70vh;
+}
+/*css for header*/
+header{
+    background: #fff;
+    color: black;
+    padding: 0px;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    font-size: 20px;
+}
+/*css for navigation bar and links*/
+nav{
+    background: rgb(214, 218, 237, 100);
+    padding: 15px;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+nav a{
+    color: black;
+    text-decoration: none;
+    margin: 0 20px;
+    font-size: 18px;
+}
+/* css for main*/
+.m-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 80vh;
+    flex-direction: row;
+    padding: 0 10px;
+}
+.text-content {
+    max-width: 100%;
+    text-align: center;
+    height: auto;
+}
+.text-content h1 {
+    font-size:50px;
+    margin: 0;
+    align-items: center;
+}
+.text-content h2{
+    font-size: 20px;
+    margin: 0;
+    align-items: center;
+}
+.login-bttn {
+    background-color:rgb(214, 218, 237, 100);
+    border: none;
+    padding: 15px 30px;
+    font-size: 25px;
+    border-radius: 30px;
+    cursor: pointer;
+    margin-top: 30px;
+}
+.login-bttn a{
+    color: black;
+    text-decoration: none;
+}
+.dropdowns {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+select {
+    padding: 10px 28px;
+    font-size: 16px;
+    border: 2px solid #D6DAED;
+    border-radius: 5px;
+}
+
+
+.image-content img{
+    width: 500px;
+    height: auto;
+    margin: 0 0 40px 0;
+}
+
+.boxes {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.image-content img{
+    width: 300px;
+    height: auto;
+    margin: 0 0 40px 0;
+}
+
+/*css for footer*/
+footer{
+    background: rgb(214, 218, 237, 100);
+    color: black;
+    text-align: center;
+    padding: 29.3px 30px;
+    width: 100%;
+    height: 50px;
+    margin-top: 37px;
+}
+footer a{
+    color: black;
+    text-decoration: none;
+    margin: 0 2px;
+    font-size: 18px;
+}
+.cf{
+    margin-top: 107px;
+}
+img{
+    width: 25px;
+    margin: 0 2px;
+    margin-top: 10px;
+}
+/*css for contact us*/
+.c-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.form-container {
+    max-width: 400px;
+}
+label{
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+    font-size: 20px;
+}
+.input-group{
+    display: flex;
+    gap: 10px;
+}
+input, textarea{
+    width: 50%;
+    padding: 10px;
+    margin-top: 5px;
+    border:2px solid #D6DAED;
+    border-radius: 30px;
+    outline: none;
+}
+#message{
+    border-radius: 0;
+    width: 80%;
+}
+textarea {
+    height: 80px;
+    resize: none;
+}
+.ssubmit-btn{
+    background-color: rgb(214, 218, 237, 100);
+    color: white;
+    padding: 10px 40px;
+    border: none;
+    border-radius: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+    cursor: pointer;
+    margin-bottom: 40px;
+    font-size: 20px;
+}
+.latter{
+    width: 500px;
+}
+/*css for languages*/
+.ccontainer{ 
+    display:flex;
+    justify-content:space-between ;
+    align-items: center;
+    width: 80%; 
+    
+}
+.languages{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 60%;
+    font-size: 20px;
+    font-weight: bold;
+}
+.limage{
+    width: 250px;
+    height: auto;
+}
+/*css for login*/
+.bbody{
+    display:flex;
+    margin: 0;
+    padding: 20px 40px;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+.l-container{
+    display:flex;
+    width: 80%;
+    background: white;
+    overflow: hidden;
+    background: linear-gradient(to bottom,white,#D6DAED);
+}
+.image-container{
+    flex: 1;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.image-container img{
+    width: 260px;
+}
+.login-container{
+    flex: 1;
+    padding: 40px;
+    text-align: left;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.remember-me{
+    display:flex ;
+    align-items: center;
+    margin-top: 10px;
+    font-size: 10px;
+    font-weight: normal;
+}
+.remember-me input{
+    margin-right: 5px;
+}
+.loginbtttn{
+    padding: 4px 13px;
+    margin-top: 15px;
+    background: #D6DAED;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    font-size: 25px;
+    cursor: pointer;
+}
+#home{
+    height: 25px;
+    width: 25px;
+}
